@@ -1,0 +1,311 @@
+2025-01-22 18:11:36 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 1, Email: 1
+2025-01-22 18:11:56 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-22 18:15:17 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 1, Email: 1
+2025-01-22 18:19:54 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 1, Email: 1
+2025-01-22 18:21:41 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 1, Email: 1
+2025-01-22 18:27:26 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: Librarian.update_loaned_books() takes 2 positional arguments but 4 were given
+2025-01-22 18:28:26 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 1, Email: 1
+2025-01-22 18:28:46 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 1, Email: 1
+2025-01-22 18:28:59 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 1, Email: 1
+2025-01-22 18:29:10 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Handmaid's Tale' is fully loaned and cannot be borrowed.
+2025-01-22 18:29:13 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Handmaid's Tale' is fully loaned and cannot be borrowed.
+2025-01-22 18:30:10 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 18:30:14 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 1, Email: 1
+2025-01-22 18:38:13 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 18:38:55 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 18:46:34 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 19:18:45 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:18:54 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 19:20:23 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:20:31 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: Librarian.add_to_waiting_list() takes 4 positional arguments but 5 were given
+2025-01-22 19:30:22 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:30:30 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: Librarian.add_to_waiting_list() takes 4 positional arguments but 5 were given
+2025-01-22 19:37:53 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:38:09 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 19:39:37 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:39:50 - ACTION: Search, STATUS: success, DETAILS: Search for 'the' by Title
+2025-01-22 19:39:59 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:40:14 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:40:16 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:40:48 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:42:11 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:42:38 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:43:10 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 11, Email: 11122
+2025-01-22 19:50:20 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:50:22 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:51:54 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:52:02 - ACTION: Search, STATUS: success, DETAILS: Search for 't' by Title
+2025-01-22 19:52:06 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:52:12 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: The Handmaid's Tale
+2025-01-22 19:52:14 - ACTION: Display Popular Books, STATUS: fail, DETAILS: 'Librarian' object has no attribute 'get_popular_books'
+2025-01-22 19:52:30 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 123221
+2025-01-22 19:54:32 - ACTION: Remove Book, STATUS: success, DETAILS: Book: 123221
+2025-01-22 19:56:12 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-22 19:56:18 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1234
+2025-01-22 19:56:36 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:57:03 - ACTION: Search, STATUS: success, DETAILS: Search for '19' by Title
+2025-01-22 19:57:20 - ACTION: Display Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-22 19:58:29 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 19:58:31 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-22 19:58:40 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-22 19:59:09 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-22 19:59:17 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-22 20:00:08 - ACTION: Search, STATUS: success, DETAILS: Search for 'a' by Title
+2025-01-22 20:01:10 - ACTION: Search, STATUS: success, DETAILS: Search for 'a' by Author
+2025-01-22 20:02:59 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:03:07 - ACTION: Search, STATUS: success, DETAILS: Search for '1' by name
+2025-01-22 20:04:50 - ACTION: Search, STATUS: fail, DETAILS: No results for '2132131312' by name
+2025-01-22 20:06:17 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: An error occurred while updating loaned books: dict contains fields not in fieldnames: 'borrow_date'
+2025-01-22 20:06:51 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Mistborn: The Final Empire' is marked as fully loaned.
+2025-01-22 20:07:05 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '1984' is marked as fully loaned.
+2025-01-22 20:07:30 - ACTION: Lend Book, STATUS: success, DETAILS: Book: War and Peace, Borrower: 1212, Email: 122
+2025-01-22 20:07:59 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: War and Peace
+2025-01-22 20:08:27 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-22 20:08:40 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:08:54 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-22 20:09:01 - ACTION: Register, STATUS: success, DETAILS: User registered: 1111111
+2025-01-22 20:09:33 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:09:37 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-22 20:09:49 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-22 20:31:41 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:31:52 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 20:32:04 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 20:32:16 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 20:32:23 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-22 20:32:49 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: 12, Email: 123
+2025-01-22 20:46:20 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:48:44 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 20:49:35 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 21:49:33 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 21:49:36 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-22 21:49:48 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-22 21:49:59 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-22 21:50:03 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-22 21:50:08 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-22 21:50:38 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 18 filtered books.
+2025-01-22 21:50:54 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-22 22:25:55 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:26:05 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 12
+2025-01-22 22:33:59 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 17 filtered books.
+2025-01-22 22:34:50 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:39:36 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:40:05 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:40:14 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Great Gatsby, Borrower: 1, Email: 11
+2025-01-22 22:40:24 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '1984' is marked as fully loaned.
+2025-01-22 22:40:38 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Great Expectations, Borrower: adf, Email: @dffd
+2025-01-22 22:40:48 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Great Gatsby, Borrower: adsff, Email: @adsdsaf
+2025-01-22 22:40:56 - ACTION: Lend Book, STATUS: success, DETAILS: Book: War and Peace, Borrower: asdfad, Email: adsf
+2025-01-22 22:41:24 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Catcher in the Rye, Borrower: sdcxz, Email: XZcXZ
+2025-01-22 22:41:37 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Great Gatsby, Borrower: ZXcX, Email: xzc
+2025-01-22 22:41:45 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Great Gatsby, Borrower: ZXcZ, Email: XZc
+2025-01-22 22:41:57 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Great Gatsby' is fully loaned and cannot be borrowed.
+2025-01-22 22:42:11 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Great Gatsby' is fully loaned and cannot be borrowed.
+2025-01-22 22:42:27 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Great Gatsby' is fully loaned and cannot be borrowed.
+2025-01-22 22:42:52 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Great Gatsby' is fully loaned and cannot be borrowed.
+2025-01-22 22:43:40 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:43:48 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Great Gatsby' is fully loaned and cannot be borrowed.
+2025-01-22 22:44:04 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is marked as fully loaned.
+2025-01-22 22:44:16 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is marked as fully loaned.
+2025-01-22 22:44:24 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is marked as fully loaned.
+2025-01-22 22:59:37 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 22:59:46 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is marked as fully loaned.
+2025-01-22 23:15:09 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:15:20 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Great Expectations
+2025-01-22 23:22:21 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:23:12 - ACTION: Lend Book, STATUS: success, DETAILS: Book: 12, Borrower: 1234, Email: 1234
+2025-01-22 23:23:25 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:23:48 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:23:51 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:23:54 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:24:42 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:24:50 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:25:09 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: 12
+2025-01-22 23:37:48 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:37:49 - ACTION: Login, STATUS: fail, DETAILS: 'LibraryGUI' object has no attribute 'observer'
+2025-01-22 23:39:02 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:39:03 - ACTION: Login, STATUS: fail, DETAILS: 'LibraryGUI' object has no attribute 'observer'
+2025-01-22 23:41:22 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:41:23 - ACTION: Login, STATUS: fail, DETAILS: 'LibraryGUI' object has no attribute 'observer'
+2025-01-22 23:42:56 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:43:10 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:47:31 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:47:42 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-22 23:47:45 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:48:12 - ACTION: Login, STATUS: success, DETAILS: User logged in: 123
+2025-01-22 23:48:36 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-22 23:48:40 - ACTION: Login, STATUS: fail, DETAILS: Invalid login attempt: 1234
+2025-01-22 23:48:46 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1234
+2025-01-22 23:49:31 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:49:56 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:50:09 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:50:25 - ACTION: Lend Book, STATUS: success, DETAILS: Book: 12, Borrower: yohanan, Email: @jikr
+2025-01-22 23:51:06 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: yoh, Email: asd
+2025-01-22 23:51:23 - ACTION: Lend Book, STATUS: success, DETAILS: Book: The Handmaid's Tale, Borrower: asd, Email: asd
+2025-01-22 23:51:31 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:51:40 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:52:52 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:53:33 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:53:59 - ACTION: Lend Book, STATUS: success, DETAILS: Book: War and Peace, Borrower: asd, Email: asd
+2025-01-22 23:54:08 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:55:47 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:55:56 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:56:20 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:57:36 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-22 23:58:45 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:59:04 - ACTION: Lend Book, STATUS: fail, DETAILS: The book '12' is fully loaned and cannot be borrowed.
+2025-01-22 23:59:43 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-22 23:59:53 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-23 00:02:00 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:02:10 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is marked as fully loaned.
+2025-01-23 00:02:31 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:02:39 - ACTION: Lend Book, STATUS: fail, DETAILS: An unexpected error occurred: list index out of range
+2025-01-23 00:03:31 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:03:46 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: 12
+2025-01-23 00:03:51 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:03:55 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:08:08 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:09:04 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-23 00:10:20 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: asdasd, Email: asd
+2025-01-23 00:10:35 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:11:15 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:11:18 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:11:21 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:16:13 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:16:24 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: asd, Email: asd
+2025-01-23 00:16:28 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:16:38 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: asdsadsads, Email: asdsa
+2025-01-23 00:16:46 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:16:51 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:16:55 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:16:57 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:19:06 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:19:30 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 123, Email: 12345
+2025-01-23 00:19:43 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:26:07 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:26:16 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:26:22 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:26:25 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:26:27 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:27:18 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:27:29 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: 1111, Email: 1111111111
+2025-01-23 00:27:36 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:27:41 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:27:47 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:27:49 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:31:36 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:33:23 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:33:40 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: asdad, Email: asdsad
+2025-01-23 00:33:48 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:33:53 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:33:57 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:34:00 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:34:36 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:34:45 - ACTION: Lend Book, STATUS: success, DETAILS: Book: Moby Dick, Borrower: asdf, Email: sdf
+2025-01-23 00:34:54 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:35:01 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'Moby Dick' is fully loaned and cannot be borrowed.
+2025-01-23 00:35:27 - ACTION: Lend Book, STATUS: fail, DETAILS: The book 'The Odyssey' is marked as fully loaned.
+2025-01-23 00:35:41 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: Moby Dick
+2025-01-23 00:35:49 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:35:52 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 00:36:14 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
+2025-01-23 00:36:17 - ACTION: Login, STATUS: success, DETAILS: User logged in: 123
+2025-01-23 10:29:10 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 10:29:19 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 10:29:33 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 10:29:44 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 10 filtered books.
+2025-01-23 10:29:56 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 10 filtered books.
+2025-01-23 10:30:12 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 17 filtered books.
+2025-01-23 10:30:27 - ACTION: Show Filtered Books, STATUS: success, DETAILS: Displayed 17 filtered books.
+2025-01-23 10:32:21 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 10:32:40 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 10:39:26 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 10:53:03 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 12:35:11 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 12:35:15 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 12:35:40 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 12:35:42 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 12:42:09 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 12:42:12 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 12:43:32 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 12:43:37 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 12:47:28 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 12:47:31 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 12:48:10 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 12:48:14 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 13:06:12 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 13:06:16 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 13:08:07 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 13:08:10 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 13:08:41 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 13:08:55 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 13:08:59 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 13:09:08 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 13:09:15 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Genre
+2025-01-23 13:10:27 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 13:10:30 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 13:10:39 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 13:10:44 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 13:11:12 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 13:11:14 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 13:11:16 - ACTION: Display Books by Category, STATUS: success, DETAILS: Displayed books by Author
+2025-01-23 13:27:08 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 14:25:28 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 14:25:32 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 14:30:20 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 14:30:23 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 14:37:50 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 14:37:53 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 14:38:57 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 14:39:04 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 15:16:57 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 15:17:00 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 15:26:14 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 15:29:03 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 15:48:39 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 15:48:42 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 15:48:53 - ACTION: Advanced Filter, STATUS: fail, DETAILS: can only concatenate str (not "int") to str
+2025-01-23 16:12:08 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 16:12:10 - ACTION: Advanced Filter, STATUS: fail, DETAILS: can only concatenate str (not "int") to str
+2025-01-23 16:38:59 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 16:39:02 - ACTION: Display Books, STATUS: success, DETAILS: Displayed all books successfully.
+2025-01-23 16:39:12 - ACTION: Advanced Filter, STATUS: fail, DETAILS: can only concatenate str (not "int") to str
+2025-01-23 16:39:23 - ACTION: Advanced Filter, STATUS: fail, DETAILS: can only concatenate str (not "int") to str
+2025-01-23 16:49:16 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 17:12:54 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 17:20:12 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 17:33:28 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 17:54:30 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 17:56:15 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 1234
+2025-01-23 17:56:22 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 1234
+2025-01-23 17:58:34 - ACTION: Remove Book, STATUS: fail, DETAILS: Book: 1234 not found
+2025-01-23 17:59:29 - ACTION: Remove Book, STATUS: success, DETAILS: Book: 1234
+2025-01-23 17:59:50 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 1234
+2025-01-23 18:00:03 - ACTION: Remove Book, STATUS: success, DETAILS: Book: 1234
+2025-01-23 18:00:36 - ACTION: Add Book, STATUS: success, DETAILS: Book added: 12
+2025-01-23 18:01:04 - ACTION: Lend Book, STATUS: success, DETAILS: Book: 12, Borrower: 1, Email: 1233
+2025-01-23 18:01:25 - ACTION: Return Book, STATUS: success, DETAILS: Book returned: 12
+2025-01-23 18:01:45 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:02:14 - ACTION: Search, STATUS: success, DETAILS: Search for '' by Genre
+2025-01-23 18:02:36 - ACTION: Search, STATUS: success, DETAILS: Search for '' by Author
+2025-01-23 18:02:43 - ACTION: Search, STATUS: success, DETAILS: Search for '' by Year
+2025-01-23 18:03:05 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:03:31 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:06:21 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 18:06:31 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:10:12 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 18:10:25 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:14:27 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 18:14:55 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:16:22 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 18:16:29 - ACTION: Display Popular Books, STATUS: fail, DETAILS: LibraryGUI.update_books_table() missing 1 required positional argument: 'books'
+2025-01-23 19:15:33 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 19:16:08 - ACTION: Display Popular Books, STATUS: success, DETAILS: Displayed popular books successfully.
+2025-01-23 19:27:15 - ACTION: Login, STATUS: success, DETAILS: User logged in: 1
+2025-01-23 19:27:36 - ACTION: Apply Filters, STATUS: start, DETAILS: Starting filter process.
+2025-01-23 19:27:36 - ACTION: Apply Filters, STATUS: success, DETAILS: Filtered books by category: genre.
+2025-01-23 19:27:36 - ACTION: Apply Filters, STATUS: info, DETAILS: Displayed all books without advanced filter.
+2025-01-23 19:27:36 - ACTION: Apply Filters, STATUS: success, DETAILS: Displayed 5 books after filtering.
+2025-01-23 19:28:04 - ACTION: Apply Filters, STATUS: start, DETAILS: Starting filter process.
+2025-01-23 19:28:04 - ACTION: Apply Filters, STATUS: success, DETAILS: Filtered books by category: genre.
+2025-01-23 19:28:04 - ACTION: Apply Filters, STATUS: success, DETAILS: Displayed 2 books after filtering.
+2025-01-23 19:28:44 - ACTION: Logout, STATUS: success, DETAILS: User logged out successfully.
